@@ -1,0 +1,118 @@
+body {
+  background: #FFD6DC;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Fredoka One', Georgia, serif;
+  color: #563A69;
+  font-size: 300%;
+  text-align: center;
+}
+
+#largeimg {
+  max-width: 100%;
+}
+
+#attribution {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  color: #563A69;
+}
+
+#about {
+  width: 70%;
+  margin: auto;
+  color: #563A69;
+  padding-bottom: 2rem;
+}
+
+#listen {
+  width: auto;
+  margin: auto;
+  font-size: 150%;
+  display: block;
+}
+
+#container {
+  padding: 2em;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+p {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #563A69;
+}
+
+.album {
+  padding: 1.5rem 1.5rem;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+button {
+  background: #c9bdf9;
+  color: #563A69;
+  width: 70%;
+  border: none;
+  margin: auto;
+  padding: .5em;
+
+}
+
+button:hover {
+  background-color: pink  ;
+    color: #563A69;
+}
+
+footer {
+  width: 70%;
+  color: #563A69;
+  margin: .5rem auto;
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+
+@media (max-width: 750px) {
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #attribution {
+    width: 80%;
+  }
+
+  #about {
+    width: 80%;
+  }
+
+  #listen {
+    font-size: 100%;
+}
+
+  #container {
+    width: 80%;
+}
+
+}
